@@ -1,0 +1,5 @@
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is like a container where you can store all the files with related changes that you need to commit together under a certain theme. It allows you to choose which files you want to commit ,so that you don’t have to commit all the files in your working directory.It’s also different from the repository which contains all commits that you have submitted.
+value offered:
+1.Choosing a set of file to commit ,so that you don’t need to commit all files in the working directory.
+2.Ability to reset the staging area using “git reset filename” if you change your mind about committing a certain file.
