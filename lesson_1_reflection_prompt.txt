@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+It reduced the time required to find the bug especially in long files .
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+This allows you to restore previous versions of your code ,so that in case 
+you've made a mistake that crashed the program , u can quickly return to
+ the last working version without having to waste your time searching for the cause of the bug or trying to correct the code .
+ Moreover ,using different versions allows you to collaborate with other programmers without having to worry if any thing can crash your code
+
+ What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+ MANUALLY:
+ PROS:
+ 1.This gives more flexibility to the user and allows him to save 
+ versions only when he thinks there is a logical change in his code 
+ or a change that is big enough to be committed.
+ CONS:
+ 1.This feature rather depends on the user and makes him responsible for saving versions regularly , which he could sometimes forget.
+
+ AUtomatically:
+ PROS:
+ 1.This saves the user the burden of having to remember which versions are required to save ,since they are saved automatically.
+ This can sometimes be very beneficial especially if the user usually forgets to save his work.
+
+ CONS:
+ This could eventually lead to a cluster of useless and meaningless versions which makes it more difficult for the user to navigate through 
+ his versions of the project.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+because google docs is used to save files that are usually not related to each other,however git works with projects containing many files that are directly related to each other so saving these files together in one commit is a better option allowing the user to easily track changes in all files of a certain version and comparing that version to another version
+
+How can you use the commands git log and git diff to view the history of files?
+git log is used so as to list all commits in a certain repository together with their id and message
+git diff compares two commits 
+To use git log switch to the repository you wnt using cd
+then write the command
+write git diff first_commit_id second commit_id
+to be able to have colours write:
+git config --global ui.color auto
+-- means apply thiese changes to all git repositories as far as i can understand
+
+
+
+git clone url of repository :used to clone a repository 
+
+commands learnt so far:
+1.git clone
+2.git log
+3.git diff
+
+How might using version control make you more confident to make changes that could break something?
+because using version control allows me to revise 
+previous versions and compare them so as to find the 
+version that introduced the bug and thus easily fix 
+that bug
