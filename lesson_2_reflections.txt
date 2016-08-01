@@ -3,3 +3,8 @@ The staging area is like a container where you can store all the files with rela
 value offered:
 1.Choosing a set of file to commit ,so that you don’t need to commit all files in the working directory.
 2.Ability to reset the staging area using “git reset filename” if you change your mind about committing a certain file.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+When you carry out a change in your working directory , you then submit this change to the staging area. To make sure that it's a single logical change , you run the command "git diff --staged "to compare the staging area with the most recent commit. At this point ,you can check whether  a single logical change has been made since the last commit. If you find that there is more than one logical change , you can then use "git reset filename "to remove a file from the staging area ,so as to make sure that the changes in the remaining files in the staging area all lie in one logical band, then commit those changes together and write a suitable commit message.
+Note that if it wasn't for the staging area , you would have had to commit all the changes in the working directory at once . This means you won't be able to control which changes are included in a certain commit and thus you won't be able to write a suitable commit message.
