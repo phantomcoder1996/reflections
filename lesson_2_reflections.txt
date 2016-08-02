@@ -14,3 +14,7 @@ What are some situations when branches would be helpful in keeping your history 
 1.when you want to try a new version of the project and return to a certain checkpoint.
 2.When you want to make a version of your project in a different language.
 3.In general ,when the changes you make represent an experimental feature you want to try or to allow your mates to try ,while maintaining a working version of your project.
+
+
+How do the diagrams help you visualize the branch structure?
+The diagrams allow me to visualise the whole repository as a road having a certain starting point, which is the initial commit . You continue along the same road solving problems and editing (committing changes)until you reach some point where you need to carry out a rooted change or try something new,so you branch and try it out moving along a new path. As you go along this path, you can easily branch at any time and you can even return to your previous checkpoint.
