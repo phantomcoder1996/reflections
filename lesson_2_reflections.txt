@@ -18,3 +18,6 @@ What are some situations when branches would be helpful in keeping your history 
 
 How do the diagrams help you visualize the branch structure?
 The diagrams allow me to visualise the whole repository as a road having a certain starting point, which is the initial commit . You continue along the same road solving problems and editing (committing changes)until you reach some point where you need to carry out a rooted change or try something new,so you branch and try it out moving along a new path. As you go along this path, you can easily branch at any time and you can even return to your previous checkpoint.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+the results combining all the changes in the two branches.Any thing that was in the original file before branching and was deleted by one  of the programmers is discarded. Any thing that was not present in the original file ,but was added in one if the two branches is added to the merged version. when you merge to branches ,u checkout the branch which will label the merged commit (usually the master)and then u merge the other branches into that branch. As a result, the new commit has more than one parent. you then delete the other unnecessary branches as their commits can be reached through the master branch This simply deletes the label.
