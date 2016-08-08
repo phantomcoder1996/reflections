@@ -21,3 +21,9 @@ The diagrams allow me to visualise the whole repository as a road having a certa
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 the results combining all the changes in the two branches.Any thing that was in the original file before branching and was deleted by one  of the programmers is discarded. Any thing that was not present in the original file ,but was added in one if the two branches is added to the merged version. when you merge to branches ,u checkout the branch which will label the merged commit (usually the master)and then u merge the other branches into that branch. As a result, the new commit has more than one parent. you then delete the other unnecessary branches as their commits can be reached through the master branch This simply deletes the label.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros:
+changes made by each contributor are merged together into a single branch ,which encourages collaborative work and makes things easier.
+cons:
+many conflicts happen if two contributors edited the same part of the original file. These conflicts should be manually fixed.
