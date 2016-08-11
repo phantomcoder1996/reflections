@@ -12,3 +12,10 @@ Describe the differences between forks, clones, and branches. When would you use
  1.Forks: are used when you want to copy a certain github repository to your own github account. You do this when you want to make changes to that repository ,but you don't have the permission to do so from the author. This is easier than cloning the repository,  creating an empty repository on github,setting it as a remote using git remote add (name) (url) then pushing the changes to it from your local repository. When you fork a repository, you can either clone it to make changes to it on your own computer ,or you can make the changes directly on your github repository ,if they were easy such as editing your readme file or any kind of text files.
  2. Branch: Branching is usually used for trying a new feature in your project, so instead of moving on in a linear pattern, you deviate a little bit from your path at a certain point ,experiment a new feature or mode ,without worrying about messing up with the working version of your project , since you can always return back to it by cheking out the master branch. Branching takes place on the same repository.
  3.clone: Cloning can be used on local repositories as well as github repositories. For example, you can clone a repository on your computer to another location on the same computer. Moreover, you can clone a github repository to your own computer ,which automatically sets it as a remote repository with the default name of origin.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+This allows synching between the local repository and the remote repository and plays a role in managing conflicts that usually occur in group collaborations.
+IN fact this allows the following scenario to take place when the tip of master is different between the local and remote repositories:
+1. fetch the changes made by others on git hub to your repository updating the local copy of master branch .
+2.Merge those changes to the changes you have made to your local master branch.
+3.push the merged changes back to github after manually resolving any potential conflicts.
