@@ -19,3 +19,6 @@ IN fact this allows the following scenario to take place when the tip of master 
 1. fetch the changes made by others on git hub to your repository updating the local copy of master branch .
 2.Merge those changes to the changes you have made to your local master branch.
 3.push the merged changes back to github after manually resolving any potential conflicts.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+without Git or github,collaborTION WOULD BE MADE BY PHONE CALLS to make decisions with other contributors.You will have to zip projects and send them to friends by mail.If your friends make any updates,you will have to manually copy and paste these updates to your version of the project.You cannot automatically merge the changes together.This is much more harder than using git to collaborate with friends
