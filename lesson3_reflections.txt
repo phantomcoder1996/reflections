@@ -22,3 +22,12 @@ IN fact this allows the following scenario to take place when the tip of master 
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 without Git or github,collaborTION WOULD BE MADE BY PHONE CALLS to make decisions with other contributors.You will have to zip projects and send them to friends by mail.If your friends make any updates,you will have to manually copy and paste these updates to your version of the project.You cannot automatically merge the changes together.This is much more harder than using git to collaborate with friends
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Making changes to master:
+1.faster and easier and has less conflicts.
+ You only need to pull the master branch to get others' changes to update your local version of the remote master branch and merge those changes to your master branch,resolve any conflicts that may occur if you have locally modified master to be different than the version you pulled and then push master again.
+ 2.The disadvantages to this approach is that you modify the master branch directly without taking the opinion of other contributors on the changes that you have made .
+ Making changes in a seperate branch:
+ 1.Allow you to make the changes that you want without affecting the working version of the master branch,push your branch and create pull requests ,so that your mates can judge your work allowing the whole group of collaborators to make decisions together.It allows you to spot merge conflicts with other contributors ,so as to resolve them.
+ The disadvantage of this approach is that it is more complicated.Things even get more complicated in case of resolving conflicts ,since you have to merge the changes of other contributors to master,pull master, merge it to your branch,push your branch after resolving conflicts ,update your pull request and then merge that branch to master.it;s quiet a cumbersome process and it takes more time.
